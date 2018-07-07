@@ -1,0 +1,18 @@
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\Moradi Remote Desktop.exe.config
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\Moradi Remote Desktop.exe
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\Moradi Remote Desktop.pdb
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\MetroFramework.dll
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.csprojAssemblyReference.cache
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi_Remote_Desktop.Form1.resources
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi_Remote_Desktop.Properties.Resources.resources
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.csproj.GenerateResource.cache
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.csproj.CopyComplete
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.exe
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.pdb
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\VncSharp.dll
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Interop.MSTSCLib.dll
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\Moradi Remote Desktop.csproj.ResolveComReference.cache
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\Interop.MSTSCLib.dll
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\bin\Debug\AxInterop.MSTSCLib.dll
+C:\Users\Brett Tech\source\repos\Moradi Remote Desktop\Moradi Remote Desktop\obj\Debug\AxInterop.MSTSCLib.dll
