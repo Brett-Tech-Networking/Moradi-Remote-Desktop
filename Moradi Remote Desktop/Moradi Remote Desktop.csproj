@@ -32,9 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Fader Theme">
+      <HintPath>..\..\Moradi-AntiVirus\packages\Fader Theme.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework">
       <HintPath>..\..\..\..\Documents\GitHub\Brett-Tech-Control-Panel-V3\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,6 +63,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="updater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updater.Designer.cs">
+      <DependentUpon>updater.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +82,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="updater.resx">
+      <DependentUpon>updater.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,6 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\draw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

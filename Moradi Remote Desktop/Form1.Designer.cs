@@ -41,13 +41,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.connectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newConnectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.connectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.disconnectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.remote)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -191,12 +192,12 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
-            // helpToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            this.helpToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // connectionToolStripMenuItem
             // 
@@ -212,27 +213,29 @@
             // newConnectionToolStripMenuItem
             // 
             this.newConnectionToolStripMenuItem.Name = "newConnectionToolStripMenuItem";
-            this.newConnectionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newConnectionToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.newConnectionToolStripMenuItem.Text = "New Connection";
             // 
             // connectToolStripMenuItem
             // 
             this.connectToolStripMenuItem.Name = "connectToolStripMenuItem";
-            this.connectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.connectToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.connectToolStripMenuItem.Text = "Connect";
             // 
             // disconnectToolStripMenuItem
             // 
             this.disconnectToolStripMenuItem.Name = "disconnectToolStripMenuItem";
-            this.disconnectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.disconnectToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.disconnectToolStripMenuItem.Text = "Disconnect";
             // 
-            // exitToolStripMenuItem
+            // helpToolStripMenuItem
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkForUpdatesToolStripMenuItem});
+            this.helpToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
             // 
             // pictureBox1
             // 
@@ -244,6 +247,13 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 58;
             this.pictureBox1.TabStop = false;
+            // 
+            // checkForUpdatesToolStripMenuItem
+            // 
+            this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
+            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkForUpdatesToolStripMenuItem.Text = "Check For Updates";
+            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -300,6 +310,7 @@
         private System.Windows.Forms.ToolStripMenuItem disconnectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem checkForUpdatesToolStripMenuItem;
     }
 }
 

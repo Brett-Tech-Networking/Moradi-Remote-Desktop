@@ -95,6 +95,12 @@ namespace Moradi_Remote_Desktop
         {
 
         }
+
+        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            updater update = new updater();
+            update.Show();
+        }
     }
     }
 
