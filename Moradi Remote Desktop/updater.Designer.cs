@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("1. Some Changes");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("1. Some Changes");
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -89,7 +89,7 @@
             this.metroListView1.ForeColor = System.Drawing.Color.Yellow;
             this.metroListView1.FullRowSelect = true;
             this.metroListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.metroListView1.LabelWrap = false;
             this.metroListView1.Location = new System.Drawing.Point(26, 127);
             this.metroListView1.Name = "metroListView1";
@@ -135,7 +135,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
             this.Name = "updater";
+            this.Resizable = false;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "Moradi Remote Desktop | New Update Available !";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.updater_Load);
